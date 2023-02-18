@@ -23,7 +23,7 @@ I am a Research Fellow at the [School of Mechanical and Aerospace Engineering](h
  
 As a data scientist, I am perennially interested in finding meaningful patterns and deriving actionable insights from data. In my <a href="https://dr.ntu.edu.sg/handle/10356/160021">PhD</a>, I have worked on develpoing data-driven decision systems and autonomous control agents to manage increased air traffic. I proposed `machine learning` models that can approximate the `uncertainty`, inherent in an airport environment and recommend intelligent aircraft pushbacks to minimize airport airside congestion, fuel burn and related emissions. Moreover, the developed algorithms can be adapted to design other `control systems` that require intelligent decision making to satisfy competing demands of multiple stakeholders with limited information.
 
-In my spare time, I enjoy running, traveling, and going on hikes with friends and family. I can be contacted on multiple social platforms (see bottom of the page).
+In my spare time, I enjoy running, traveling, and going on hikes with friends and family. I can be contacted via other social platforms (see bottom of the page).
 
 <!-- I attempted to minimize airport taxiway congestion problem by adopting intelligent pushbacks using Deep Reinforcement Learning (DRL) framework.  -->
 

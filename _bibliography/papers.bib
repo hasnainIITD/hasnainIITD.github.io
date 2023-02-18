@@ -115,7 +115,11 @@ modelled.},
   title={Impact of stochastic delays, turnaround time and connection time on missed connections at low cost airports},
   author={Ali, Hasnain and Guleria, Yash and Alam, Sameer and Duong, Vu N and Schultz, Michael},
   booktitle={Proc. 13th USA/Eur. Air Traffic Manage. R\&D Seminar},
-  year={2019}
+  year={2019},
+  preview={point-to-point.png},
+  pdf={https://drive.google.com/file/d/1sdfxdCS-vtj_LaZINbVR03Lbi9xqrpb8/view},
+  html={https://dr.ntu.edu.sg/handle/10356/146690},
+  abstract={Classification is a data mining function which assigns input values to two or more designated classes of output, with the goal of accurately predicting target class for new input data. Discriminant analysis which falls under the broad gambit of classification data mining, is the statistical mapping of data values to one of the two predefined groups. In this study, the application of Ant Colony Optimization to perform discriminant analysis has been explored. Predictive classification accuracy of eighty-six percent has been achieved on an ordinal data set for the combination of one thousand ants and twenty-five instances (minimum) covered by one rule.}
 }
 
 
@@ -160,7 +164,8 @@ scenarios.}
   organization={IEEE},
   abstract={Airports across the world are expanding by building multiple ground control towers and resorting to complex taxiway and runway system, in response to growing air traffic. Current outcome- based ground safety management at the airside may impede our potential to learn from and adapt to evolving air traffic scenarios, owing to the sparsity of accidents when compared with number of daily airside operations. To augment airside ground safety at Singapore Changi airport, in this study, we predict dynamic hot spots- areas where multiple aircraft may come in close vicinity on taxiways, as pre-cursor events to airside conflicts. We use airside infrastructure and A-SMGCS operations data of Changi airport to model aircraft arrival at different taxiway intersections both in temporal and spatial dimensions. The statistically learnt spatial-temporal model is then used to compute conflict probability at identified intersections, in order to evaluate conflict coefficients or hotness values of hot spots. These hot spots are then visually displayed on the aerodrome diagram for heightened attention of ground ATCOs. In the Subjective opinion of Ground Movement Air Traffic Controller, highlighted Hot Spots make sense and leads to better understanding of taxiway movements and increased situational awareness. Future research shall incorporate detailed human-in-the-loop validation of the dynamic hot spot model by ATCOs in 360 degree tower simulator.},
   preview={methodology_flowchart_5.PNG},
-  html={https://ieeexplore.ieee.org/document/9049186}
+  html={https://ieeexplore.ieee.org/document/9049186},
+  pdf={https://dr.ntu.edu.sg/bitstream/10356/146689/2/AIDAT.pdf}
 }
 
 @inproceedings{ali2021deep,
@@ -169,7 +174,26 @@ scenarios.}
   booktitle={2021 IEEE International Intelligent Transportation Systems Conference (ITSC)},
   pages={366--371},
   year={2021},
-  organization={IEEE}
+  organization={IEEE},
+  preview={simulator.png},
+  html={https://ieeexplore.ieee.org/document/9565012},
+  pdf={https://dr.ntu.edu.sg/bitstream/10356/161934/6/DRL_DM_author_copy%20AV..pdf},
+  abstract={In this work, we proposed a DRL approach for controlling
+pushback times (TSATs) of departures. We employed PPO
+algorithm to train DRL agent into finding an effective
+DM policy. Since multiple agents are designed to share a
+common, single-agent policy, the final learned policy can
+be copied onto any number of agents. Simulating airside
+surface traffic in a representative airport environment, it is
+shown that DRL approach is able to learn, on simulated
+scenarios, an effective DM policy to contain congestion on
+an airport airside. As a result, taxi delays and average taxi
+times are reduced significantly. Through extensive simula-
+tion experiments, it is demonstrated that the final trained
+policy naturally scales to various fleet sizes. With increase
+in traffic density, taxi time savings obtained by the DM
+policy improves without significant increase in average gate
+holding times.}
 }
 
 @inproceedings{ali2022integrated,
@@ -178,6 +202,8 @@ scenarios.}
   author={Ali, Hasnain and Pham, Duc-Thinh and Alam, Sameer and Schultz, Michael},
   year={2022},
   preview={Concept_Diagram_1.png},
+  pdf={https://dr.ntu.edu.sg/bitstream/10356/160033/2/Impact_of_DM_on_Passenger_Connection__after_review_.pdf},
+  html={https://dr.ntu.edu.sg/handle/10356/160033},
   abstract={Airport departure metering can contain airside congestion but it may adversely impact scheduled gate assignments leading to passenger missed connections. Using an integrated landside airside framework, this study aims at evaluating the impact of departure metering on connecting flights and passenger connections. The proposed framework comprises of landside and airside simulators where the landside simulator simulates transfer passenger movements conditioned upon minimum connection time and the airside simulator simulates runway and taxiway movements based on planned operations and available data source. Departing aircraft movements are then metered to reduce taxi and take-off delays under uncertainties. Delayed arrivals and/or departures may lead to conflicts at gate rendering planned gate assignments infeasible or impractical. Using Singapore Changi airport A-SMGCS data, as a case study, it is found that DM may transfer as much as 12 minutes of waiting time from taxiways to gates. This leads to increased gate conflicts which additionally delays the gate-in time of an arriving aircraft by 2-7 minutes on average. Gate reassignments were found to significantly reduce both the number of gate conflicts and arrival queuing time at gates leading to less passenger delays. A minimum connection time of 70 minutes is found sufficient to reduce the probability of missed connections for transfer passengers.},
 }
 
@@ -194,6 +220,7 @@ scenarios.}
   selected={true},
   dimensions={true},
   html={https://ieeexplore.ieee.org/document/9906869/},
+  pdf={https://dr.ntu.edu.sg/bitstream/10356/161934/6/DRL_DM_author_copy%20AV..pdf},
   abstract={Airport taxi delays adversely affect airports and airlines around the world leading to airside congestion, increased Air Traffic Controllers/Pilot workload, and adverse environmental impact due to excessive fuel burn. Airport Departure Metering (DM) is an effective approach to contain taxi delays by controlling departure pushback timings. The key idea behind DM is to transfer aircraft waiting time from taxiways to gates. State-of-the-art DM methods use model-based control policies that rely on airside departure modeling to obtain simplified analytical equations. Consequently, these models fail to capture non-stationarity in the airside operations leading to poor performance of control policies under uncertainties. This work proposes model-free and learning-based DM using Deep Reinforcement Learning (DRL) approach to reduce taxi delays while meeting flight schedule constraints. This paper casts the DM problem in a markov decision process framework and develops a representative airport-airside simulator to simulate airside operations and evaluate the learnt DM policy. For effective state representation, this work introduces taxiway hotspot features to account for the spatial-temporal evolution of airside congestion levels. This significantly improves the DM policy convergence rate during training. The performance of the learnt policy is evaluated under different traffic densities with a reduction of approximately 44% in taxi out delays, in medium-density traffic scenarios, which corresponds to 2-minute savings in taxi-out time per aircraft. Furthermore, benchmarking DRL against an evolutionary method and another state-of-the-art simulation-based heuristic demonstrates the superior performance of our method, especially in high traffic density scenarios. With increased traffic density, taxi-time savings achieved by the learnt DM policy increase without a significant decrease in runway throughput. Results, on a typical day of simulated operations at Singapore Changi Airport, demonstrate that DRL can learn an effective DM policy to contain congestion on the taxiways, reduce total fuel consumption by approximately 22% and better manage the airside traffic.}
 
 }
