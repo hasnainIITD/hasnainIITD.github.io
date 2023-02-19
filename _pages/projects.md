@@ -1,11 +1,11 @@
 ---
 layout: page
-title: projects
+title: teaching
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: I have tutored data science and intelligent transportation systems courses.
 nav: true
 nav_order: 2
-display_categories: [work, fun]
+display_categories: [data science, intelligent transportation systems]
 horizontal: false
 ---
 

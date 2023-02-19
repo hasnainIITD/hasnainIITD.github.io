@@ -1,12 +1,17 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - Capitolhill
+  - strnam
+  # - torvalds
+  # - alshedivat
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - Capitolhill/surface_metering
+  - Capitolhill/fullstack-course4
+  - Capitolhill/IG-RL
+  # - alshedivat/al-folio
+  # - twbs/bootstrap
+  # - jekyll/jekyll
+  # - jquery/jquery
+  # - FortAwesome/Font-Awesome
+  # - jpswalsh/academicons
+  # - mathjax/MathJax
