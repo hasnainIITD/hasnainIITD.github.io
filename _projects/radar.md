@@ -2,7 +2,7 @@
 layout: page
 title: Real-Time Air Traffic Control RADAR Simulator
 description: 
-img: assets/img/12.jpg
+img: assets/img/radar.jpg
 importance: 2
 category: intelligent transportation systems
 ---

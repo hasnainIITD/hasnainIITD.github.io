@@ -2,7 +2,7 @@
 layout: page
 title: ATC Tower Operations and Flight Sequencing
 description: 
-img: assets/img/12.jpg
+img: assets/img/tower2.jpg
 importance: 3
 category: intelligent transportation systems
 ---
